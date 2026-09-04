@@ -21,6 +21,11 @@ A Power BI fraud-risk dashboard built on a synthetic 20,100-row healthcare claim
 This was one of my first BI projects — the DAX and dashboard structure hold up, but going back through it with a fraud-analyst lens surfaced a real issue I missed the first time. Documented below instead of quietly fixed and hidden.
 
 ---
+## Dashboard Preview
+<p align="center">
+  <img src="screenhshots/Dash.png" width="48%">
+  <img src="screenhshots/Matrix.png" width="48%">
+</p>
 
 **Dashboard Overview** — KPI cards (claim count, fraud rate, claim amounts), Fraud Risk by Age Group ribbon chart, Fraud Cases by State 100% stacked bar, Fraud Trend Over Time, Claims by Gender donut, Claim Volume by Age Group funnel, fraud rate by state map. Slicers: Date, City, Provider Specialty, Provider Type.
 
@@ -99,8 +104,8 @@ The model runs on one flat fact table with Power BI's auto-generated local date 
 Healthcare_Claims_Fraud_Risk_Analysis/
 ├── Healthcare_Claims_Fraud_Risk_Analysis.pbix
 ├── screenshots/
-│   ├── overview.png
-│   └── risk-matrix.png
+│   ├── Dash.png
+│   └── Matrix.png
 └── README.md
 ```
 
